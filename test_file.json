@@ -1,0 +1,12 @@
+[
+    {
+        "name": "John Johnson",
+        "address": "12 Karen Street",
+        "number": "123-456-7890"
+    },
+    {
+        "name": "Peter Peterson",
+        "address": "1223 50th Avenue",
+        "number": "987-654-3210"
+    }
+]
