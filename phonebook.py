@@ -86,7 +86,7 @@ def main():
     # Register the available data format
     # If adding a new data format, this is the place to register the format and associated (de)serializing functions
     pb.register_data_format('yaml', serialize_yaml, deserialize_yaml)
-#    pb.register_data_format('json', serialize_json, deserialize_json)
+    pb.register_data_format('json', serialize_json, deserialize_json)
 
     # Collect all registered data formats
     data_formats = pb.list_data_formats()
